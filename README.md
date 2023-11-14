@@ -6,7 +6,7 @@ In this work, we highlight the importance of inferential utility and provide emp
 ## Experiments
 The following class and helper files are included: 
 - hpo_results/: sql-lite databases containing the hyperparameter optimization studies for CTGAN and TVAE (using optuna backend) 
-- utils/custom_bayesian.py: class to train Bayesian Network with DAG pre-specification (using synthcity and pgpmy backend)
+- utils/custom_bayesian.py: class to train Bayesian Network with DAG pre-specification (using synthcity and pgmpy backend)
 - utils/custom_ctgan.py: class to train CTGAN (using sdv backend)
 - utils/custom_synthpop.py: class to train Synthpop (using synthcity and R's synthpop backend)
 - utils/custom_tvae.py: class to train TVAE (using sdv backend)
