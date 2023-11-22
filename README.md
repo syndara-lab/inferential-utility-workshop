@@ -1,5 +1,5 @@
 # Synthetic Data: Can We Trust Statistical Estimators?
-Code to reproduce results in "Synthetic Data: Can We Trust Statistical Estimators?", presented during the 1st Workshop on Deep Generative Models for Health at NeurIPS 2023.
+Code to reproduce results in "Synthetic Data: Can We Trust Statistical Estimators?", presented during the 1st Workshop on Deep Generative Models for Health at NeurIPS 2023 and available from https://openreview.net/forum?id=9cHt8szDMj.
 
 In this work, we highlight the importance of inferential utility and provide empirical evidence against naive inference from synthetic data (that handles these as if they were really observed). We argue that the rate of false-positive findings (type 1 error) will be unacceptably high, even when the estimates are unbiased. One of the reasons is the underestimation of the true standard error, which may even progressively increase with larger sample sizes due to slower convergence. This is especially problematic for deep generative models. Before publishing synthetic data, it is essential to develop statistical inference tools for such data.
 
